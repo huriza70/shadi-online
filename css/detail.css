@@ -1,0 +1,90 @@
+/* details page CSS */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#detail {
+    margin-top: 50px;
+}
+
+.detailTitle {
+    font-size: 2rem;
+    color: rgb(21, 19, 19);
+}
+
+.img-fluid {
+    height: 33rem;
+    width: 38rem;
+}
+
+.detailhAndp h1 {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.detailhAndp p {
+    color: #7b7373;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.61rem;
+}
+
+.footerrr {
+    margin-left: 50rem;
+}
+
+.footerLabel label {
+    margin-top: 1.7rem;
+    font-size: 2.6rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 1156px) {
+    .footerrr {
+        margin-left: 45.5rem;
+    }
+
+    .footerLabel label {
+        margin-top: 0.7rem;
+        font-size: 2.4rem;
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 1023px) {
+    .footerrr {
+        margin-left: 35rem;
+    }
+}
+
+@media (max-width: 853px) {
+    .footerrr {
+        margin-left: 33rem;
+    }
+}
+
+@media (max-width: 766px) {
+    .footerrr {
+        margin-left: 28rem;
+    }
+}
+
+@media (max-width: 666px) {
+    .footerrr {
+        margin-left: 23rem;
+    }
+}
+
+@media (max-width: 566px) {
+    .footerrr {
+        margin-left: 20rem;
+    }
+}
+
+@media (max-width: 549px) {
+    .footerrr {
+        margin-left: 16rem;
+    }
+}

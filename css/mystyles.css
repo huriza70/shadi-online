@@ -1,0 +1,172 @@
+/*YOUR CUSTOM STYLES*/
+
+.footerrr {
+    margin-left: 50rem;
+}
+
+.footerLabel label {
+    margin-top: 1.7rem;
+    font-size: 2.6rem;
+    margin-bottom: 2.5rem;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.indexTitle {
+    font-size: 2rem;
+    color: rgb(21, 19, 19);
+}
+
+.text h1,
+p {
+    color: #bba1a1;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text p {
+    font-size: 2rem;
+}
+
+.aboutH1P p {
+    color: #7b7373;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.form-container {
+    position: relative;
+    margin-top: 50px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.form-container img {
+    max-width: 100%;
+    height: 67rem;
+    display: block;
+    margin: auto;
+}
+
+.form-container form {
+    position: absolute;
+    top: 93%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+@media (max-width: 1206px) {
+    .form-container form {
+        position: absolute;
+        top: 93%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 500px;
+        width: 100%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 1156px) {
+    .footerrr {
+        margin-left: 45.5rem;
+    }
+
+    .footerLabel label {
+        margin-top: 0.7rem;
+        font-size: 2.4rem;
+        margin-left: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 1023px) {
+    .footerrr {
+        margin-left: 35rem;
+    }
+}
+
+@media (max-width: 853px) {
+    .footerrr {
+        margin-left: 33rem;
+    }
+}
+
+@media (max-width: 766px) {
+    .footerrr {
+        margin-left: 28rem;
+    }
+}
+
+@media (max-width: 666px) {
+    .footerrr {
+        margin-left: 23rem;
+    }
+}
+
+@media (max-width: 566px) {
+    .footerrr {
+        margin-left: 20rem;
+    }
+}
+
+@media (max-width: 549px) {
+    .footerrr {
+        margin-left: 16rem;
+    }
+}
+
+
+/* Proposals CSS  */
+
+.listIcon {
+    margin-bottom: 0.8rem;
+}
+
+
+/* Contact CSS */
+
+#contact {
+    margin-right: 35rem;
+}
+
+
+#contact h1 {
+    margin-bottom: 3rem;
+    color: rgb(22, 21, 21);
+}
+
+#contact h4 {
+    margin-top: 7.5rem;
+}
+
+#contact p {
+    color: #7b7373;
+    line-height: 1.7rem;
+    text-align: justify;
+}
